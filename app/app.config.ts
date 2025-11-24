@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'green',
+      primary: 'orange',
       neutral: 'slate'
     },
     footer: {
@@ -20,6 +20,9 @@ export default defineAppConfig({
     search: false,
     colorMode: true,
     links: [{
+      'label': 'articles',
+      'to': '/articles'
+    }, {
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/nyambe',
       'target': '_blank',

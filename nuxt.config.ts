@@ -52,7 +52,7 @@ export default defineNuxtConfig({
 
   llms: {
     domain: 'https://nyambe.dev/',
-    title: 'nyambe',
+    title: '@samiebuka',
     description: 'creator - developer and consultant',
     full: {
       title: 'nyambe - creator',
