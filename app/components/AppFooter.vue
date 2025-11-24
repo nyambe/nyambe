@@ -5,12 +5,10 @@ const { footer } = useAppConfig()
 <template>
   <UFooter>
     <template #left>
-      {{ footer.credits }}
+      <span class="text-sm text-muted">{{ footer.credits }}</span>
     </template>
 
     <template #right>
-      <UColorModeButton v-if="footer?.colorMode" />
-
       <template v-if="footer?.links">
         <UButton
           v-for="(link, index) of footer?.links"

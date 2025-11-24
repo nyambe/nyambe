@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Volumes/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
