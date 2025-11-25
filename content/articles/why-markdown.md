@@ -39,9 +39,6 @@ else in the doc, define the link:
 
 [id]: http://example.com/ "Title"
 
-![alt text](/path/img.jpg "Title")
-![alt text][id]
-
 ## Example 2 MD
 
 ```md
