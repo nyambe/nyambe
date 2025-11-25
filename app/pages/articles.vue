@@ -3,10 +3,12 @@ definePageMeta({
   layout: 'minimal'
 })
 
-const { data: articles } = await useAsyncData('articles', () =>
-  queryCollection('docs')
-    .order('date', 'DESC')
-    .all()
+const { data: allDocs } = await useAsyncData('articles', () =>
+  queryCollection('docs').all()
+)
+
+const articles = computed(() =>
+  allDocs.value?.filter(doc => doc.path?.includes('/articles/')) || []
 )
 
 useSeoMeta({
@@ -34,12 +36,28 @@ useSeoMeta({
           :to="article.path"
           class="block group space-y-2 py-6 border-b border-orange-200 dark:border-orange-900 hover:border-orange-400 dark:hover:border-orange-600 transition-colors"
         >
-          <h2 class="text-3xl md:text-5xl font-bold group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
-            {{ article.title }}
-          </h2>
-          <p v-if="article.description" class="text-lg opacity-70">
-            {{ article.description }}
-          </p>
+          <div class="flex items-start justify-between gap-4">
+            <div class="space-y-2 flex-1">
+              <h2 class="text-3xl md:text-4xl font-bold group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
+                {{ article.title }}
+              </h2>
+              <p v-if="article.description" class="text-lg opacity-70">
+                {{ article.description }}
+              </p>
+              <div v-if="article.tags && article.tags.length" class="flex flex-wrap gap-2 pt-2">
+                <span
+                  v-for="tag in article.tags"
+                  :key="tag"
+                  class="text-xs px-2 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 rounded"
+                >
+                  {{ tag }}
+                </span>
+              </div>
+            </div>
+            <span v-if="article.category" class="text-xs opacity-50 uppercase tracking-wider">
+              {{ article.category }}
+            </span>
+          </div>
         </NuxtLink>
       </div>
 

@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Read(//Volumes/**)"
+      "Read(//Volumes/**)",
+      "Bash(pgrep -f \"nuxt dev\")"
     ],
     "deny": [],
     "ask": []

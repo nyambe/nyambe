@@ -13,7 +13,7 @@ creator
 ::
 
 ::div{class="text-lg leading-relaxed"}
-I'm an out-of-the-box creative developer at [Vivaticket](https://www.vivaticket.com/). I also write articles, make videos, make music, and stream occasionally.
+I'm an out-of-the-box creative developer at [Vivaticket](https://www.vivaticket.es/). I also write articles, make videos, make music, and stream occasionally.
 ::
 
 ::div{class="text-base leading-relaxed"}
@@ -21,7 +21,7 @@ I'm an out-of-the-box creative developer at [Vivaticket](https://www.vivaticket.
 ::
 
 ::div{class="text-base leading-relaxed"}
-In love with technology and innovation. I enjoy creating design systems, efficient workflows, and solving impossible problems. I've been coding for 8+ years, building everything from ticketing platforms to OTT streaming services.
+In love with technology and innovation. I enjoy creating, efficient workflows and solving impossible problems. I've been coding for more than 10 years, building everything from ticketing platforms, or custom CMS to OTT streaming services.
 ::
 
 ::div{class="text-sm opacity-60"}
@@ -40,7 +40,33 @@ I last listened to [Just The Way You Are](https://www.youtube.com/results?search
 [→ view all articles](/articles)
 ::
 
-::div{class="text-2xl md:text-3xl font-bold leading-relaxed space-y-4"}
+::div{class="text-base md:text-xl font-bold leading-relaxed space-y-4"}
+[Vue3 Reactivity Extreme](/articles/vue3-reactivity-extreme-example)
+
+[Svelte vs Vue3](/articles/svelte-vs-vue)
+
+[Vue3 Functional Components](/articles/vue3-functional-componets)
+
+[Why Markdown](/articles/why-markdown)
+
+[Petit Vue](/articles/petit-vue)
+
+[Why Netlify](/articles/why-netlify)
+
+[Harmonization with Intervals](/articles/harmonization-with-intervals)
+
+[Diminished Chords](/articles/diminished-chords)
+::
+
+::
+
+---
+
+::div{class="space-y-8 py-12"}
+
+### somethings I have written
+
+::div{class="text-xl md:text-2xl font-semibold leading-relaxed space-y-3 opacity-80"}
 [qué es TypeScript y por qué debería utilizarlo](https://medium.com/@samiebuka/qu%C3%A9-es-typescript-y-por-qu%C3%A9-deber%C3%ADa-utilizarlo-3e16e14c9eea)
 
 [ChatGPT-4 Plugins: entendiendo a los asistentes virtuales](https://medium.com/@samiebuka/chatgpt-4-plugins-entendiendo-a-los-asistentes-virtuales-y-descubriendo-el-poder-de-los-modelos-de-bd5f052d4d59)

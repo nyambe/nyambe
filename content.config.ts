@@ -13,6 +13,12 @@ export default defineContentConfig({
         exclude: ['index.md']
       },
       schema: z.object({
+        title: z.string().optional(),
+        description: z.string().optional(),
+        frase: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        category: z.string().optional(),
+        youtube: z.string().optional(),
         links: z.array(z.object({
           label: z.string(),
           icon: z.string(),
