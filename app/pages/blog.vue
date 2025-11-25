@@ -12,8 +12,8 @@ const articles = computed(() =>
 )
 
 useSeoMeta({
-  title: 'Articles',
-  description: 'Writings and tutorials on web development, Vue, Nuxt, TypeScript, and more'
+  title: 'Thoughts',
+  description: 'Thoughts on code, creation, and craft'
 })
 </script>
 
@@ -22,10 +22,10 @@ useSeoMeta({
     <div class="space-y-16">
       <div class="space-y-4">
         <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold">
-          articles
+          thoughts
         </h1>
         <p class="text-xl opacity-70">
-          thoughts on code, creation, and craft
+          on code, creation, and craft
         </p>
       </div>
 
@@ -62,7 +62,7 @@ useSeoMeta({
       </div>
 
       <div v-else class="py-12 text-center opacity-50">
-        <p class="text-xl">No articles yet. Check back soon.</p>
+        <p class="text-xl">No thoughts yet. Check back soon.</p>
       </div>
     </div>
   </UContainer>

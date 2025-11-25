@@ -20,8 +20,8 @@ export default defineAppConfig({
     search: false,
     colorMode: true,
     links: [{
-      'label': 'articles',
-      'to': '/articles'
+      'label': 'thoughts',
+      'to': '/blog'
     }, {
       'icon': 'i-simple-icons-linkedin',
       'to': 'https://www.linkedin.com/in/samiebuka',

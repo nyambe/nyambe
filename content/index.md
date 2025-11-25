@@ -32,12 +32,12 @@ I might be listening to something like :MusicFeedback{artist="Julian Lage" song=
 
 ---
 
-::div{id="articles" class="space-y-12 py-12"}
+::div{id="blog" class="space-y-12 py-12"}
 
-## articles & writing
+## thoughts & writing
 
 ::div{class="mb-8"}
-[→ view all articles](/articles)
+[→ view all thoughts](/blog)
 ::
 
 ::div{class="text-base md:text-xl font-bold leading-relaxed space-y-4"}

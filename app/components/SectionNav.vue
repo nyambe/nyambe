@@ -3,7 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const sections = [
   { id: 'intro', label: 'intro' },
-  { id: 'articles', label: 'articles & writing' },
+  { id: 'blog', label: 'thoughts & writing' },
   { id: 'external', label: 'external writing' },
   { id: 'projects', label: 'projects' }
 ]
