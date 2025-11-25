@@ -15,13 +15,28 @@ export default defineAppConfig({
     siteName: 'nyambe'
   },
   header: {
-    title: 'nyambe',
+    title: '@samiebuka',
     to: '/',
     search: false,
     colorMode: true,
     links: [{
       'label': 'articles',
       'to': '/articles'
+    }, {
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://www.linkedin.com/in/samiebuka',
+      'target': '_blank',
+      'aria-label': 'LinkedIn'
+    }, {
+      'icon': 'i-simple-icons-instagram',
+      'to': 'https://instagram.com/samiebuka',
+      'target': '_blank',
+      'aria-label': 'Instagram'
+    }, {
+      'icon': 'i-simple-icons-x',
+      'to': 'https://x.com/samiebuka',
+      'target': '_blank',
+      'aria-label': 'X'
     }, {
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/nyambe',

@@ -6,7 +6,7 @@ seo:
 
 ::div{class="space-y-12 py-12 max-w-4xl"}
 
-# nyambe
+# @samiebuka - nyambe
 
 ::div{class="border-l-4 border-orange-500 pl-6 text-2xl font-serif italic"}
 creator
@@ -25,7 +25,7 @@ In love with technology and innovation. I enjoy creating, efficient workflows an
 ::
 
 ::div{class="text-sm opacity-60"}
-I last listened to [Just The Way You Are](https://www.youtube.com/results?search_query=milky+just+the+way+you+are) by Milky.
+I might be listening to something like :MusicFeedback{artist="Julian Lage" song="Tributary" url="https://www.youtube.com/watch?v=cEqgeN27Hhk"}
 ::
 
 ::
