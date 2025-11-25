@@ -4,7 +4,7 @@ seo:
   description: creator
 ---
 
-::div{class="space-y-12 py-12 max-w-4xl"}
+::div{id="intro" class="space-y-12 py-12 max-w-4xl"}
 
 # @samiebuka - nyambe
 
@@ -21,7 +21,7 @@ I'm an out-of-the-box creative developer at [Vivaticket](https://www.vivaticket.
 ::
 
 ::div{class="text-base leading-relaxed"}
-In love with technology and innovation. I enjoy creating, efficient workflows and solving impossible problems. I've been coding for more than 10 years, building everything from ticketing platforms, or custom CMS to OTT streaming services.
+I've been coding for more than 10 years, building and managing dev projects — everything from ticketing platforms and custom CMS to OTT streaming services.
 ::
 
 ::div{class="text-sm opacity-60"}
@@ -32,7 +32,7 @@ I might be listening to something like :MusicFeedback{artist="Julian Lage" song=
 
 ---
 
-::div{class="space-y-12 py-12"}
+::div{id="articles" class="space-y-12 py-12"}
 
 ## articles & writing
 
@@ -62,7 +62,7 @@ I might be listening to something like :MusicFeedback{artist="Julian Lage" song=
 
 ---
 
-::div{class="space-y-8 py-12"}
+::div{id="external" class="space-y-8 py-12"}
 
 ### somethings I have written
 
@@ -82,7 +82,7 @@ I might be listening to something like :MusicFeedback{artist="Julian Lage" song=
 
 ---
 
-::div{class="py-12"}
+::div{id="projects" class="py-12"}
 
 ## experiments & side projects
 

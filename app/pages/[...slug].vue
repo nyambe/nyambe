@@ -65,8 +65,6 @@ const links = computed(() => {
           :key="index"
           v-bind="link"
         />
-
-        <PageHeaderLinks />
       </template>
     </UPageHeader>
 

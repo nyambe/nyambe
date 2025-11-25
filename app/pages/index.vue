@@ -16,7 +16,10 @@ useSeoMeta({
   title,
   ogTitle: title,
   description,
-  ogDescription: description
+  ogDescription: description,
+  ogImage: '/1704797230944.jpeg',
+  twitterCard: 'summary_large_image',
+  twitterImage: '/1704797230944.jpeg'
 })
 </script>
 

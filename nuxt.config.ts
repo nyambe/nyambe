@@ -27,6 +27,21 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-07-11',
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/samiebukasmall.png' }
+      ],
+      meta: [
+        { property: 'og:image', content: '/1704797230944.jpeg' },
+        { property: 'og:image:width', content: '800' },
+        { property: 'og:image:height', content: '800' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: '/1704797230944.jpeg' }
+      ]
+    }
+  },
+
   nitro: {
     prerender: {
       routes: [
