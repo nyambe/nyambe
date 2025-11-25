@@ -1,36 +1,36 @@
-# Nuxt Docs Template
+# nyambe
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+[![Made with Nuxt](https://img.shields.io/badge/Made%20with-Nuxt%20UI-F97316?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-Use this template to build your own documentation with [Nuxt UI](https://ui.nuxt.com) quickly.
+Personal site and blog for **@samiebuka** — creator, developer, and consultant.
 
-- [Live demo](https://docs-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation)
+**nyambe** — *creator* in Ndowe, a language from Equatorial Guinea
 
-<a href="https://docs-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
-    <img alt="Nuxt Docs Template" src="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
-  </picture>
-</a>
+## About
 
-## Quick Start
+This is my personal space on the internet where I share:
+- **Thoughts**: Articles on Vue, Nuxt, TypeScript, and web development
+- **Experiments**: Side projects and creative explorations
+- **Music**: What I'm currently listening to
+- **Philosophy**: How I approach creating and building
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/docs
-```
+Built with Nuxt UI, featuring an orange color scheme, monospace typography, and vertical dot navigation.
 
-## Deploy your own
+## Links
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=docs&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fdocs&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fdocs-dark.png&demo-url=https%3A%2F%2Fdocs-template.nuxt.dev%2F&demo-title=Nuxt%20Docs%20Template&demo-description=A%20documentation%20template%20powered%20by%20Nuxt%20Content.)
+- [LinkedIn](https://www.linkedin.com/in/samiebuka)
+- [Instagram](https://instagram.com/samiebuka)
+- [X (Twitter)](https://x.com/samiebuka)
+- [GitHub](https://github.com/nyambe)
+- [Medium](https://medium.com/@samiebuka)
+- [dev.to](https://dev.to/nyambe)
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 ## Development Server
@@ -38,7 +38,7 @@ pnpm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 ## Production
@@ -46,17 +46,30 @@ pnpm dev
 Build the application for production:
 
 ```bash
-pnpm build
+npm run build
 ```
 
 Locally preview production build:
 
 ```bash
-pnpm preview
+npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-## Renovate integration
+## Tech Stack
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+- **Framework**: Nuxt 3
+- **UI**: Nuxt UI v3 (with Tailwind CSS)
+- **Content**: Nuxt Content v3
+- **Color Theme**: Orange accent with light/dark mode
+- **Typography**: JetBrains Mono (monospace)
+- **Features**:
+  - Vertical section navigation
+  - Interactive music feedback (share reactions on X)
+  - Article tagging and categorization
+  - Social media integration
+
+## License
+
+© 2024 nyambe
