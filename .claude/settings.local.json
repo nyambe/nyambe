@@ -4,7 +4,10 @@
       "Read(//Volumes/**)",
       "Bash(pgrep -f \"nuxt dev\")",
       "Bash(npm run build)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(curl -s \"https://nuxt.com/deploy/netlify\")",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Configure Nuxt for Netlify deployment\n\n- Add Nitro Netlify preset for proper SSR/static handling\n- Change package manager from pnpm to npm\n- Simplify netlify.toml (Netlify auto-detects Nuxt)\n- Add .netlify to .gitignore\n- Set Node version to 20\n- Fix broken image reference in why-markdown article\n\nThis should fix the deployment by using Netlify''s native\nNuxt integration which handles functions and assets automatically.\")"
     ],
     "deny": [],
     "ask": []
