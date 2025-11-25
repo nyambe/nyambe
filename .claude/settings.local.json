@@ -3,7 +3,8 @@
     "allow": [
       "Read(//Volumes/**)",
       "Bash(pgrep -f \"nuxt dev\")",
-      "Bash(npm run build)"
+      "Bash(npm run build)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
