@@ -87,11 +87,12 @@ I might be listening to something like :MusicFeedback{artist="Julian Lage" song=
 ## experiments & side projects
 
 ::div{class="text-sm opacity-60 space-y-3 max-w-3xl"}
-[MOABA Cinema TV](https://github.com/nyambe/moaba) — African cinema OTT platform
-• [Academy Platform](https://github.com/nyambe/academy) — Learning management system
-• [SunSun](https://sunsun.app) — AI oracle card readings
-• [Chato](https://chato.app) — Real-time chat experiment
-• [China Watt](https://chinawatt.com) — EV discovery
+[MOABA Cinema TV](https://www.moabacinematv.com) — African cinema OTT platform
+• [Academy Platform](https://asunta.vercel.app) — Learning management system
+• [SunSun](https://oraculo.sunartvisual.com) — AI oracle card readings
+• [French Dashboard](https://french-dasboard.vercel.app) - Learn French with AI
+• [Chato](https://chato.samuel-ebuka.workers.dev) — Real-time chat experiment
+• [China Watt](https://carwatt.vercel.app) — EV discovery
 • [Tactor App](https://tactor-app.vercel.app/) — Body doubling for actors
 • [Casa con Jardín](https://www.casaconjardin.com/) — Property showcase
 ::
